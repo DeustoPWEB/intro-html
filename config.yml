@@ -1,18 +1,18 @@
-title: Introduction to HTML
+title: Introduccion a HTML
 description: If you are looking for a quick and fun introduction to the exciting world of programming, this course is for you. Learn fundamental HTML skills and build your first webpage in less than an hour.
 template:
   name: intro-html
-  repo: intro-to-html-template
+  repo: intro-html-plantilla
   description: "A robot powered training repository :robot:"
 before:
   - type: createIssue
-    title: Welcome
+    title: Bienvenida
     body: 01-welcome.md
   - type: updateBranchProtection
 
 steps:
-  - title: Turn on GitHub Pages
-    description: Turn on GitHub Pages in the settings page of the repository.
+  - title: Activa GitHub Pages
+    description: Activa GitHub Pages en la página de ajustes de este repositorio.
     event: page_build
     link: "{{ repoUrl }}/issues/1"
     actions:
@@ -27,8 +27,8 @@ steps:
           pagesUrl: "%actions.pagesUrl.data.html_url%"
         issue: Welcome
 
-  - title: Open a pull request
-    description: Open a pull request.
+  - title: Abre una solicitud de extracción
+    description: Abre una solicitud de extracción.
     event: pull_request.opened
     link: "{{ repoUrl }}/issues/1"
     actions:
@@ -41,7 +41,7 @@ steps:
         operator: ===
         right: master
       - type: closeIssue
-        issue: Welcome
+        issue: Bienvenida
         action_id: prev
         required: false
       - type: createPullRequestComment
@@ -51,8 +51,8 @@ steps:
         data:
           welcomeLink: "%actions.prev.data.html_url%"
 
-  - title: Build the HTML document structure
-    description: Follow the instructions to write the base structure of your HTML file
+  - title: Crea la estructura del documento HTML
+    description: Sigue las instrucciones para escribir la estructura base de tu archivo HTML.
     event: pull_request.synchronize
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -83,8 +83,8 @@ steps:
         file: index.html
         position: 2
 
-  - title: Add a title tag
-    description: Add a title tag
+  - title: Añade una etiqueta de título
+    description: Añade una etiqueta de título.
     event: pull_request.synchronize
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -114,8 +114,8 @@ steps:
         event: APPROVE
         body: 04-merge-first-pr.md
 
-  - title: Merge your first pull request
-    description: Merge your pull request
+  - title: Fusiona tu primera solicitud de extracción
+    description: Fusiona tu solicitud de extracción.
     event: pull_request.closed
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -127,7 +127,7 @@ steps:
         repo: "%payload.repository.name%"
         action_id: pagesUrl
       - type: createIssue
-        title: Add a header
+        title: Añade un encabezado
         body: 05-h1-tag.md
         data:
           pagesUrl: "%actions.pagesUrl.data.html_url%"
@@ -137,8 +137,8 @@ steps:
         data:
           issueURL: "%actions.new_issue.data.html_url%"
 
-  - title: Change your username to an h1 tag
-    description: Change your username to an h1 tag
+  - title: Cambia tu nombre de usuario a una etiqueta h1
+    description: Cambia tu nombre de usuario a una etiqueta h1.
     event: pull_request
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -161,7 +161,7 @@ steps:
         required: false
         else:
           type: closeIssue
-          issue: Add a header
+          issue: Añade un encabezado
           required: false
       - type: getFileContents
         filename: index.html
@@ -182,8 +182,8 @@ steps:
         file: index.html
         position: 5
 
-  - title: Add an image
-    description: Add an image
+  - title: Añade una imagen
+    description: Añade una imagen.
     event: pull_request.synchronize
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -205,8 +205,8 @@ steps:
         body: 07-merge-second-pr.md
         event: APPROVE
 
-  - title: Merge your second pull request
-    description: Merge your pull request
+  - title: Fusiona tu segunda solicitud de extracción
+    description: Fusiona tu solicitud de extracción
     event: pull_request.closed
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -228,8 +228,8 @@ steps:
         data:
           issueURL: "%actions.new_issue.data.html_url%"
 
-  - title: Create a list
-    description: Create a list
+  - title: Crea una lista
+    description: Crea una lista.
     event: pull_request
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -252,7 +252,7 @@ steps:
         required: false
         else:
           type: closeIssue
-          issue: Create a list
+          issue: Crea una lista
           required: false
       - type: getFileContents
         filename: index.html
@@ -292,8 +292,8 @@ steps:
         file: index.html
         position: 7
 
-  - title: Add links
-    description: Add links
+  - title: Añade enlaces
+    description: Añade enlaces.
     event: pull_request.synchronize
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -315,8 +315,8 @@ steps:
         body: 10-merge-third-pr.md
         event: APPROVE
 
-  - title: Merge your third pull request
-    description: Merge your pull request
+  - title: Fusiona tu tercera solicitud de extracción
+    description: Fusiona tu solicitud de extracción.
     event: pull_request.closed
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -326,7 +326,7 @@ steps:
         head: master
         base: add-style
       - type: createPullRequest
-        title: Add some style to your page
+        title: Añade un poco de estilo a tu página
         head: add-style
         body: 11-link-css.md
         action_id: new_pr
@@ -335,8 +335,8 @@ steps:
         data:
           issueURL: "%actions.new_pr.data.html_url%"
 
-  - title: Make it beautiful
-    description: Add some styles to your new site
+  - title: Hazlo bonito
+    description: Añade algunos estilos a tu nuevo sitio
     event: pull_request.synchronize
     link: "{{ repoUrl }}/pulls"
     actions:
@@ -354,8 +354,8 @@ steps:
       - type: respond
         with: 11-style-success.md
 
-  - title: Merge the final pull request
-    description: Get ready to show off your new skills
+  - title: Fusiona la última solicitud de extracción
+    description: Prepárate para mostrar al mundo tus nuevas capacidades.
     event: pull_request.closed
     link: "{{ repoUrl }}/pulls"
     actions:
