@@ -3,7 +3,7 @@ description: If you are looking for a quick and fun introduction to the exciting
 template:
   name: intro-html
   repo: intro-html-plantilla
-  description: "A robot powered training repository :robot:"
+  description: 'Un repositorio de entrenamiento, gestionado por un robot :robot:'
 before:
   - type: createIssue
     title: Bienvenida

@@ -1,30 +1,30 @@
-# Let's build your first webpage
+# Vamos a crear tu primer sitio web
 
-HTML is the markup language that forms the backbone of the internet. In this course, you will learn how to build a clean, stunning webpage using HTML which you can set as your browser's default start page. This is only the first step in your journey, but it will form an important foundation in your journey as a new developer.
+HTML es el lenguaje de marcado que conforma la columna vertebral de la web. En este curso vas a aprender a crear un sitio web limpio e impresionante usando HTML, que puedes establecer como página de inicio de tu navegador. Éste es solo el primer paso en tu viaje, pero formará una base importante de tu camino en el desarrollo web.
 
 ![screenshot of final product](https://user-images.githubusercontent.com/16547949/41006151-5e97deee-68ee-11e8-8b52-84f38cd3e567.png)
 
-## What is HTML?
+## ¿Qué es HTML?
 
-HTML stands for **H**yper **T**ext **M**arkup **L**anguage. HTML is not a programming language. It is simply a way to describe the structure of your website. Your web browser reads the HTML document and displays it in the window.
+HTML son las iniciales de **H**yper **T**ext **M**arkup **L**anguage (Lenguaje de Marcado para HiperTexto). HTML no es un lenguaje de programación. Es simplemente una forma de describir la estructura de tu sitio web. Tu navegador lee el documento HTML y lo muestra en la ventana.
 
-## Where does your website begin?
+## ¿Dónde empieza tu sitio web?
 
-When someone enters your web address, the web standards will automatically look for a file called index.html and display it in your browser. Most people call this your home page.
+Cuando alguien introduce la dirección de tu sitio web, los estándares web buscarán automáticamente un archivo llamado index.html y lo mostrarán en el navegador. La mayoría de la gente llama a esto tu página principal o página de inicio.
 
-## Step 1: Hosting your webpage
+## PAso 1: Alojando tu sitio web
 
-It isn't enough to simply create a webpage on GitHub. You must deploy your webpage to a web host that is connected to the internet. For this course we will use GitHub Pages, but you could publish the HTML to any static host.
+No es suficiente con simplemente crear un sitio web en GitHub. Necesitas implementar o desplegar el sitio web a un servidor web que esté conectado a internet. Para este curso vamos a usar GitHub Pages, pero puedes publicar tu HTML en cualquier servidor estático.
 
-## :keyboard: Activity: Turn on GitHub Pages
+## :keyboard: Actividad: Activa GitHub Pages
 
-1. Under your repository name, click [**Settings**]({{ repoUrl }}/settings).
-1. In the **GitHub Pages** section, use the **Select source** drop-down menu to select `master` as your GitHub Pages publishing source.
-1. Return to this issue.
+1. Debajo del nombre de tu repositorio, haz clic en [**Settings**]({{ repoUrl }}/settings).
+1. En la sección **GitHub Pages**, usa el selector **Select source** para seleccionar `master` como la fuente de publicación para GitHub Pages.
+1. Vuelve a esta incidencia.
 
-> _I may take up to a minute to respond as I wait for GitHub Pages to create a deployment of your repository. If you don't see anything after a minute, refresh this page_.
+> _Puede que tarde hasta un minuto responder mientras GitHub Pages crea un despliegue de tu repositorio. Si no ves nada después de un minuto, actualiza esta página_ 
 
-> _For more information, see [Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) in the GitHub Help._
+> _Para más información, consulta [Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) en la Ayuda de GitHub._
 
 <hr>
-<h3 align="center">I'll respond in this issue after GitHub Pages has finished deploying your site.</h3>
+<h3 align="center">Responderé a esta incidencia después de que GitHub Pages haya terminado de implementar tu sitio.</h3>
