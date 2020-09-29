@@ -1,12 +1,12 @@
-## Step 5: Merge your first pull request
+## Paso 5: Combina tu primera solicitud de extracción
 
-:tada: Everything's going so well @{{ user.username }}! Now that you've got all the bits for a proper HTML page, let's merge it in and see how the browser interprets it.
+:tada: ¡Todo va sobre ruedas, @{{ user.username }}! Ahora que tenemos todo lo necesario para una página HTML decente, vamos a confirmar los cambios y ver cómo la interpreta el navegador.
 
-### :keyboard: Activity: Merge the HTML, head, title, and body tags
+### :keyboard: Actividad: Combina las etiquetas HTML, head, title, y body
 
-1. Click on **Merge pull request** below.
-1. Click on **Confirm merge**.
-1. Click on **Delete branch**.
+1. Haz clic en **Merge pull request** más abajo.
+1. Haz clic en **Confirm merge**.
+1. Haz clic en **Delete branch**.
 
 <hr>
-<h3 align="center">I'll respond when you've merged this pull request.</h3>
+<h3 align="center">Responderé cuando hayas combinado esta solicitud de extracción</h3>

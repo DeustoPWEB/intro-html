@@ -1,19 +1,19 @@
-I didn't find the image! Here are some troubleshooting steps:
+¡No encuentro la imagen! Aquí tienes algunas pistas para intentar resolver esto:
 
-1. Check your spelling. We're checking specifically for the image, `<img>`, tag with a source attribute: `<img src="`{{ user.avatarUrl }}`">`
-3. Make sure you placed the image tag inside the body tags.
-4. Ensure you modified the `index.html` file, and not some other file. 
+1. Comprueba que has tecleado correctamente. Estoy buscando específicamente la etiqueta `<img>`, con un atributo _source_: `<img src="`{{ user.avatarUrl }}`">`
+2. Asegúrate de haber colocado la etiqueta de imagen entre las etiquetas body.
+3. Asegúrate de que has modificado el archivo `index.html`, y no algún otro. 
 
-Let's try again!
+¡Inténtalo otra vez!
 
-### :keyboard: Activity: Add an image to your web page
+### :keyboard: Actividad: Añade una imagen a tu página web
 
-1. Click on **Files Changed**.
-1. Click on the ellipsis (...) and select **Edit file**.
-1. Place an opening `<img>` tag inside the body tag.
-1. Set the `src` attribute to your GitHub profile picture: ``{{ user.avatarUrl }}``
-1. In the _Commit changes_ section, enter a commit message that describes what you've done.
-1. Click on **Commit changes**.
+1. Haz clic en **Files Changed**.
+1. Haz clic en los puntos suspensivos (...) y selecciona **Edit file**.
+2. Coloca una etiqueta `<img>` de apertura entre las etiquetas body. 
+3. Establece el atributo `src` con la URL de tu imagen de perfil de GitHub: `{{ user.avatarUrl }}`
+4. En la sección _Commit changes_, introduce un mensaje de confirmación que describa lo que has hecho.
+5. Haz clic en **Commit changes**.
 
 <hr>
-<h3 align="center">I'll respond when I detect you've committed in this pull request.</h3>
+<h3 align="center">Responderé cuando haya detectado que has confirmado cambios en esta solicitud de extracción.</h3>

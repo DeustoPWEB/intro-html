@@ -1,20 +1,20 @@
-Uh oh, I didn't detect `<html>` and `<body>` tags. Here are some troubleshooting steps:
+Oh-oh, no he detectado las etiquetas `<html>` y `<body>`. Aquí tienes algunas pistas para intentar resolver esto:
 
-1. Check your spelling. We're checking specifically for the tags: `<html>`, `<body>`, `</body>`, and `</html>`.
-2. Check the order of your tags. The opening `<html>` tag should appear first, followed by the opening `<body>` tag, then the content, the closing `<body>` tag, and the closing `<html>` tag.
-3. Ensure you modified the `index.html` file, and not some other file. 
+1. Comprueba que has tecleado correctamente. Estoy buscando específicamente estas etiquetas: `<html>`, `<body>`, `</body>`, y `</html>`.
+2. Comprueba el orden de tus etiquetas. La etiqueta `<html>` de apertura debería ser lo primero, seguida por la etiqueta  `<body>` de apertura, luego el contenido, la etiqueta `<body>` de cierre y la etiqueta `<html>` de cierre.
+3. Asegúrate de que has modificado el archivo `index.html`, y no algún otro. 
 
-Let's try again!
+¡Inténtalo otra vez!
 
-### :keyboard: Activity: Add the `html` and `body` tags to `index.html`
+### :keyboard: Actividad: Añade las etiquetas `html` y `body` al archivo `index.html`
 
-1. Click on **Files Changed** to see the newly added `index.html` file.
-1. Click on the ellipsis (...) and select **Edit file**.
-1. Before the existing content, add an opening `<html>` tag, and an opeining `<body>` tag.
-1. After the existing content, add a closing `</body>` tag, and a closing `</html>` tag.
-1. In the _Commit changes_ section, enter a commit message that describes what you've done.
-1. Ensure you've selected _Commit directly to the `add-index` branch_.
-1. Click on **Commit changes**.
+1. Haz clic en **Files Changed** para ver el archivo `index.html` recién añadido.
+2. Haz clic en los puntos suspensivos (...) y selecciona **Edit file**.
+3. Antes del contenido existente, añade una etiqueta `<html>` de apertura, y una etiqueta `<body>` de apertura.
+4. Después del contenido existente, añade una etiqueta `</body>` de cierre, y una etiqueta `</html>` de cierre.
+5. En la sección _Commit changes_, introduce un mensaje de confirmación que describa lo que has hecho.
+6. Asegúrate de que has seleccionado _Commit directly to the `add-index` branch_.
+7. Haz clic en **Commit changes**.
 
 <hr>
-<h3 align="center">I'll respond when I detect you've committed in this pull request.</h3>
+<h3 align="center">Responderé cuando haya detectado que has confirmado cambios en esta solicitud de extracción.</h3>

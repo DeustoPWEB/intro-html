@@ -1,4 +1,4 @@
-## Step 9: Create a list
+## Paso 9: Create a list
 
 Your site with your new photo can be seen at: {{ pagesUrl }}
 
@@ -40,16 +40,16 @@ And...
 
 For the next exercise, you are going to create a list of your favorite websites. Later, we will add links so you can access those links quickly. For now, focus on creating the individual list items.
 
-### :keyboard: Activity: Create a list of your favorite sites
+### :keyboard: Actividad: Create a list of your favorite sites
 
-1. Edit the `index.html` file in your master branch by [using this direct link]({{ repoUrl }}/edit/master/index.html) or going to the **Code** tab, clicking on the `index.html` file, clicking the pencil :pencil: to edit the HTML.
+1. Edit the `index.html` file in your master branch by [usando este enlace directo]({{ repoUrl }}/edit/master/index.html) o yendo a la pestaña **Code**, clicking on the `index.html` file, haciendo clic en el lápiz :pencil: para editar el HTML..
 1. Inside the body tag, create a list, either ordered or unordered, of your favorite sites on the internet.
-1. In the _Commit changes_ section, enter a commit message that describes what you've done.
-1. Ensure you've selected _Create a new branch for this commit and start a pull request_.
-1. Give your branch a descriptive name, like `add-links-and-lists`.
-1. Click on **Commit changes**.
-1. Give your pull request a title, and a comment.
-1. Click on **Create pull request.**
+1. En la sección _Commit changes_, introduce un mensaje de confirmación que describa lo que has hecho.
+1. Asegúrate de que has seleccionado _Create a new branch for this commit and start a pull request_.
+1. Pon un nombre descriptivo a tu rama, como `add-links-and-lists`.
+1. Haz clic en **Commit changes**.
+1. Pon un título a tu solicitud de extracción, y un mensaje descriptivo.
+1. Haz clic en **Create pull request.**
 
 <hr>
 <h3 align="center">Look for my response in your new pull request</h3>

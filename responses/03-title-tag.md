@@ -1,56 +1,56 @@
-## Step 4: Add a page title
+## Paso 4: Añade un título a la página
 
-Your web page is beginning to take shape! HTML and body tags are important, but their effect isn't too visible. Next, we'll make a visible change, by giving your page a title. Your page's title will show up on the title bar in your web browser, or as the title of any tabs you've got open. The title is used in all sorts of other places!
+¡Tu página web empieza a tomar forma! Las etiquetas HTML y body son importantes, pero su efecto no es muy visible. A continuación haremos un cambio visible, dándole un título a tu página. El título de tu página se mostrará en la barra de título de tu navegador, o como título de la pestaña que tengas abierta. ¡El título se utiliza en todo tipo de sitios!
 
 ![a screenshot of the title on a browser tab](https://user-images.githubusercontent.com/16547949/41006294-e990b476-68ee-11e8-8cfa-67c72c132095.png)
 
-The title tag looks like this:
+La etiqueta de título tiene este aspecto:
 
 ```html
-<title>I am a title!</title>
+<title>Soy un título</title>
 ```
 
-But the title tag must be inside of a head tag. By now, you've noticed that tags have a hierarchical structure. In our prior example, the `html` tag was the parent of the `body` tag. In a similar fashion, the `head` tag will be the parent of the `title` tag, like so:
+Pero la etiqueta de título debe estar dentro de una etiqueta head. Por ahora, te habrás dado cuenta de que las etiquetas tienen una estructura jerárquica. En nuestro ejemplo anterior, la etiqueta `html` era padre de la etiqueta `body`. Similarmente, la etiqueta `head` será padre de la etiqueta `title` así:
 
 ```html
 <head>
-    <title>I am a title!</title>
+    <title>Soy un título</title>
 </head>
 ```
 
-Finally, the `head` and `title` tags, will be children of the `html` tag, but siblings of the `body` tag.
+Finalmente, las etiquetas `head` y `title` son hijas de la etiqueta `html`, pero hermanas de la etiqueta `body`.
 
 ```html
 <html>
     <head>
-        <title>I am a title!</title>
+        <title>Soy un título</title>
     </head>
 
     <body>
-        Some content.
+        Un contenido.
     </body>
 </html>
 ```
 
-### :keyboard: Activity: Give your page a title
+### :keyboard: Actividad: Titula tu página
 
-Apply this suggested change, or follow the instructions below if you'd like to type out the code manually.
+Aplica esta sugerencia de cambio, o sigue las instrucciones de abajo si prefieres teclear el código manualmente.
 
 ```suggestion
     <head>
-        <title>My awesome web page</title>
+        <title>Mi estupenda página web</title>
     </head>
 
 ```
 
-1. Click on **Files Changed**.
-1. Click on the ellipsis (...) and select **Edit file**.
-1. Place an opening `<head>` tag and an opening `<title>` tag after the first opening `html` tag, but before the `body` tag.
-1. Write out a title after the opening `title` tag.
-1. Place a closing `</title>` tag and a closing `</head>` tag after your new title, but before the `body` tag. 
-1. In the _Commit changes_ section, enter a commit message that describes what you've done.
-1. Ensure you've selected _Commit directly to the `add-index` branch_.
-1. Click on **Commit changes**.
+1. Haz clic en **Files Changed**.
+1. Haz clic en los puntos suspensivos (...) y selecciona **Edit file**.
+2. Coloca una etiqueta `<head>` de apertura y una etiqueta `<title>` de apertura después de la primera etiqueta `html` de apertura, pero antes de la etiqueta `body` .
+3. Escribe tu título después de la etiqueta `title` de apertura.
+4. Coloca una etiqueta `</title>` de cierre y una etiqueta `</head>` de cierre después de tu nuevo título, pero antes de la etiqueta `body`. 
+5. En la sección _Commit changes_, introduce un mensaje de confirmación que describa lo que has hecho.
+6. Asegúrate de que has seleccionado _Commit directly to the `add-index` branch_.
+7. Haz clic en **Commit changes**.
 
 <hr>
-<h3 align="center">I'll respond when I detect you've committed in this pull request.</h3>
+<h3 align="center">Responderé cuando haya detectado que has confirmado cambios en esta solicitud de extracción.</h3>

@@ -1,30 +1,30 @@
-## Step 7: Add an image
+## Paso 7: Añadir una imagen
 
-Fantastico! Headers will help you highlight segments of your web page. 
+¡Fantástico! Los encabezados te permiten resaltar algunos segmentos de tu página web. 
 
-So far, we've used tags that stand on their own. However, we sometimes need to specify an attribute, which is information that the tag needs to do its work. For example, to display an image, we need an `<img>` tag, but we also need a source attribute so the browser knows the location of the image. We can add an attribute as follows:
+Hasta ahora, hemos visto etiquetas que se valen por sí solas. Sin embargo, a veces necesitamos especificar algún atributo, que es información que la etiqueta necesita para funcionar. Por ejemplo, para mostrar una imagen, necesitamos una etiqueta `<img>`, pero también necesitamos un atributo para la fuente (o _source_) de manera que el navegador sepa la ubicación de la imagen. Podemos añadir un atributo así:
 
 ```html
 <img src="https://octodex.github.com/images/vinyltocat.png">
 ```
 
-You'll also notice that the image tag doesn't need to close since it is considered to be an [empty](https://www.w3schools.com/html/html_elements.asp) tag.
+Te darás cuenta también de que la etiqueta de imagen no necesita cerrarse, dado que se considera una etiqueta [vacía](https://www.w3schools.com/html/html_elements.asp).
 
-### :keyboard: Activity: Add an image to your web page
+### :keyboard: Actividad: Añade una imagen a tu página web
 
-Follow the instructions below to add an image.  You can use your GitHub avatar image (suggested below) or link to your image of choice.
+Sigue las instrucciones para añadir una imagen. Puedes usar tu avatar de GitHub (sugerido abajo) o enlazar cualquier imagen de tu elección.
 
 ```suggestion
 <img src="{{ user.avatarUrl }}">
 
 ```
 
-1. Click on **Files Changed**.
-1. Click on the ellipsis (...) and select **Edit file**.
-1. Place an opening `<img>` tag between the body tags. Reminder: you don't need to close an `<img>` tag!
-1. Set the `src` attribute to the image you would like to display. You can use your GitHub profile picture: `{{ user.avatarUrl }}`
-1. In the _Commit changes_ section, enter a commit message that describes what you've done.
-1. Click on **Commit changes**.
+1. Haz clic en **Files Changed**.
+1. Haz clic en los puntos suspensivos (...) y selecciona **Edit file**.
+2. Coloca una etiqueta `<img>` de apertura entre las etiquetas body. Recordatorio: ¡no necesitas cerrar una etiqueta `<img>`!
+3. Establece el atributo `src` con la URL de la imagen que te gustaría mostrar. Puedes usar tu imagen de perfil de GitHub: `{{ user.avatarUrl }}`
+4. En la sección _Commit changes_, introduce un mensaje de confirmación que describa lo que has hecho.
+5. Haz clic en **Commit changes**.
 
 <hr>
-<h3 align="center">I'll respond when I detect you've committed in this pull request.</h3>
+<h3 align="center">Responderé cuando haya detectado que has confirmado cambios en esta solicitud de extracción.</h3>

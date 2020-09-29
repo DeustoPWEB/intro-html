@@ -1,17 +1,17 @@
-## Step 2: Open a pull request
+## Paso 2: Abre una solicitud de extracción \(_pull request_\)
 
-GitHub Pages is now serving your web page at: {{ pagesUrl }}
+GitHub Pages está sirviendo tu página a partir de ahora en: {{ pagesUrl }}
 
-It's not very special looking yet, is it? Web hosts (and GitHub Pages) look for a file titled `index.html` and serve that up. Since there's no `index.html` file in our repository, GitHub Pages displays the contents of the README by default. Let's change this by adding the `index.html` file to our repository.
+No parece muy especial todavía, ¿verdad? Los servidores web (incluido GitHub Pages) buscan un archivo llamado `index.html` y lo muestran. Dado que no hay ningún `index.html` en nuestro repositorio, GitHub Pages muestra el contenido de la página README por defecto. Vamos a cambiar esto añadiendo un archivo `index.html` a nuestro repositorio.
 
-### :keyboard: Activity: Add `index.html`
+### :keyboard: Actividad: Añade `index.html`
 
-To help you get started, I have already created an `index.html` file for you on a branch called: `add-index`. All you need to do is create the pull request. Don't worry, I'll help you!
+Para ayudarte a empezar, ya he creado un archivo `index.html` por ti en una rama llamada `add-index`. Todo lo que necesitas hacer es crear la solicitud de extracción (o _pull request_). No te preocupes, ¡te ayudaré!
 
-1. Create a pull request. You can either [use this direct link]({{ repoUrl }}/compare/master...add-index?expand=1), or go to the **Code** tab, click on **New Pull Request**, select **base: master**, and **compare: add-index**.
-2. Add a descriptive title to your pull request, something like "Add the index.html file".
-3. Add a descriptive body to your pull request.
-4. Click **Create pull request**.
+1. Crea una csolicitud de extracción. Puedes [usar este enlace directo]({{ repoUrl }}/compare/master...add-index?expand=1), o ir a la pestaña **Code**, hacer clic en **New Pull Request**, y seleccionar **base: master** y **compare: add-index**.
+2. Añade un título descriptivo a tu solicitud de extracción, algo como "Añadir el archivo index.html".
+3. Añade un cuerpo descriptivo a tu solicitud de extracción.
+4. Haz clic en **Create pull request**.
 
 <hr>
-<h3 align="center">I'll respond in your new pull request.</h3>
+<h3 align="center">Responderé en tu nueva solicitud de extracción.</h3>

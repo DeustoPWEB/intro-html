@@ -1,47 +1,47 @@
-## Step 3: Add HTML document structure
+## Paso 3: Añade estructura HTML al documento
 
-Great job opening a pull request @{{ user.username }}! I've gone ahead and closed your [previous issue]({{ welcomeLink }}). 
+¡Buen trabajo abriendo una solicitud de extracción, @{{ user.username }}! Me he adelantado y he cerrado tu [anterior incidencia]({{ welcomeLink }}). 
 
-This pull request contains some content, but it doesn't have any of the HTML structure that tells a browser how to structure the content. All pages created with HTML must contain tags that identify it as such. The tags look like this:
+Esta solicitud de extracción contiene algo de contenido, pero no tiene nada de la estructura HTML que le dice al navegador cómo estructurar el contenido. Todas las páginas creadas con HTML deben contener ciertas etiquetas que las identifican como tales. Las etiquetas tienen este aspecto:
 
 ```html
 <html>
     <body>
-        The HTML content goes here.
+        El contenido HTML va aquí.
     </body>
 </html>
 ```
 
-You may notice two copies of the HTML tag, and two copies of the body tag. We call these the _opening_ and _closing_ tags. Let's look at the same code, but include a little explanation.
+Puede que veas que hay dos copias de la etiqueta HTML, y otras dos copias de la etiqueta body. Llamamos a éstas etiquetas de _apertura_ y de _cierre_. Vamos a ver el mismo código, pero añadiendo una pequeña explicación.
 
-- `<html>` is the opening HTML tag
-- `<body>` is the opening body tag
-- `</body>` is the closing body tag
-- `</html>` is the closing HTML tag
+- `<html>` es la etiqueta HTML de apertura
+- `<body>` es la etiqueta body de apertura
+- `</body>` es la etiqueta body de cierre
+- `</html>` es la etiqueta HTML de cierre
 
-In HTML, spacing doesn't really matter. We've added some tabs to make the code easier to see, but the web browser will ignore the extra spacing. Now that you understand the building blocks of HTML, let's add HTML to the `index.html` file in your project.
+En HTML, el espaciado realmente no importa. Hemos añadido algunas tabulaciones para que el código sea más fácil de leer, pero el navegador ignorará el espaciado adicional. Ahora que entiendes las piezas principales de HTML, vamos a añadir HTML al archivo `index.html` de tu proyecto.
 
-### :keyboard: Activity: Add the `html` and `body` tags to `index.html`
+### :keyboard: Actividad: Añade las etiquetas `html` y `body` al archivo `index.html`
 
-Apply this suggested change, or follow the instructions below if you'd like to type out the code manually.
+Aplica esta sugerencia de cambio, o sigue las instrucciones de abajo si prefieres teclear el código manualmente.
 
 ```suggestion
 <html>
 
   <body>
-    Hello there, awesome person! 
+    ¡Hola, persona estupenda! 
   </body>
 
 </html>
 ```
 
-1. Click on **Files Changed** to see the newly added `index.html` file.
-1. Click on the ellipsis (...) and select **Edit file**.
-1. Before the existing content, add an opening `<html>` tag, and an opening `<body>` tag.
-1. After the existing content, add a closing `</body>` tag, and a closing `</html>` tag.
-1. In the _Commit changes_ section, enter a commit message that describes what you've done.
-1. Ensure you've selected _Commit directly to the `add-index` branch_.
-1. Click on **Commit changes**.
+1. Haz clic en **Files Changed** para ver el archivo `index.html` recién añadido.
+2. Haz clic en los puntos suspensivos (...) y selecciona **Edit file**.
+3. Antes del contenido existente, añade una etiqueta `<html>` de apertura, y una etiqueta `<body>` de apertura.
+4. Después del contenido existente, añade una etiqueta `</body>` de cierre, y una etiqueta `</html>` de cierre.
+5. En la sección _Commit changes_, introduce un mensaje de confirmación que describa lo que has hecho.
+6. Asegúrate de que has seleccionado _Commit directly to the `add-index` branch_.
+7. Haz clic en **Commit changes**.
 
 <hr>
-<h3 align="center">I'll respond when I detect you've committed in this pull request.</h3>
+<h3 align="center">Responderé cuando haya detectado que has confirmado cambios en esta solicitud de extracción.</h3>
