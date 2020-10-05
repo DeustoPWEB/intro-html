@@ -1,10 +1,10 @@
-## Paso 8: Merge your second pull request
+## Paso 8: Combina tu segunda solicitud de extracción
 
-:bowtie: What a spiffy photo, @{{ user.username }}!
+:bowtie: Menuda foto tan elegante, @{{ user.username }}!
 
-You can now merge in your pull request. Don't forget to delete your branch!
+Ahora puedes combinar tu solicitud de extracción. ¡No olvides eliminar tu rama!
 
-### :keyboard: Actividad: Merge the header and image 
+### :keyboard: Actividad: Combina el encabezado y la imagen 
 
 1. Haz clic en **Merge pull request** más abajo.
 1. Haz clic en **Confirm merge**.

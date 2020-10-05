@@ -1,28 +1,28 @@
-## Paso 12: Make it beautiful
+## Paso 12: Hazlo bonito
 
-You may be wondering why your page hasn't looked exactly the same as the sample I showed in the beginning. That's because HTML gives your webpage structure, but the simple tags you have learned so far don't tell the web browser how you want each page element to appear. 
+Puede que te estés preguntando por qué tu página no se ve exactamente como el modelo que te enseñé al principio. Es porque HTML aporta estructura a tus páginas web, pero las etiquetas simples que has aprendido hasta ahora no indican al navegador cómo quieres que se muestre cada elemento.
 
-The appearance of each page element is defined through styles and is the subject of another course. For now, I have added [a stylesheet]({{ repoUrl }}/blob/add-style/style.css) for you. 
+La apariencia de cada elemento en la página se define a través de estilos, y es objeto de otro curso. Por ahora, he añadido una [hoja de estilos]({{ repoUrl }}/blob/add-style/style.css) por ti. 
 
-For your webpage to use your new stylesheet, you just need to link it within the `<head>` of your `index.html` file. If you include the following link in your `index.html` file, your webpage will begin using the css file to make your website look awesome!
+Para que tu página web utilice la nueva hoja de estilos, solamente necesitas enlazarla desde dentro de la etiqueta `<head>` en tu archivo `index.html`. Si incluyes el siguiente enlace en tu archivo `index.html`, tu página web empezará a usar el archivo css que hará que tu sitio se vea genial.
 
 ```html
   <link rel="stylesheet" href="style.css">
 ```
 
-As an example, your `index.html` file might look like this:
+A modo de ejemplo, tu archivo `index.html` podría tener este aspecto:
 
 ```html
     <head>
-        <title>I am a title!</title>
+        <title>Soy un título</title>
         <link rel="stylesheet" href="style.css">
     </head>
 ```
 
-### :keyboard: Actividad: Create a style to your site
+### :keyboard: Actividad: Crea un estilo para tu sitio
 
-1. Edit the `index.html` file in the `add-style` branch by [usando este enlace directo]({{ repoUrl }}/edit/add-style/index.html) o yendo a la pestaña **Code**, selecting the `add-style` branch, clicking on the `index.html` file, and clicking the pencil :pencil: to edit.
-1. Between the `<head>` tags, add the following `<link rel="stylesheet" href="style.css">`.
+1. Edita el archivo `index.html` en la rama `add-style` [usando este enlace directo]({{ repoUrl }}/edit/add-style/index.html) o yendo a la pestaña **Code**, seleccionando la rama `add-style`, haciendo clic en el archiv `index.html`, y haciendo clic en el lápiz :pencil: para editar.
+1. Entre las etiquetas `<head>`, añade lo siguiente: `<link rel="stylesheet" href="style.css">`.
 1. En la sección _Commit changes_, introduce un mensaje de confirmación que describa lo que has hecho.
 1. Haz clic en **Commit changes**.
 

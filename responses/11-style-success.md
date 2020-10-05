@@ -1,8 +1,8 @@
-## Paso 13: Merge your final pull request
+## Paso 13: Combina tu última solicitud de extracción
 
-Your styles look great, @{{ user.username }}.
+Tus estilos se ven genial, @{{ user.username }}.
 
-Go ahead and merge this pull request so we can all see the final result. Don't forget to delete your branch!
+Adelante, combina esta solicitud de extracción para que podamos ver el resultado final. ¡No olvides borrar tu rama!
 
 ### :keyboard: Actividad: Merge the stylesheet
 1. Haz clic en **Merge pull request** más abajo.

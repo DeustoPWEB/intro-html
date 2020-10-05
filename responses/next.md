@@ -1,4 +1,4 @@
-Great! I've opened a [new issue]({{ issueURL }}) for you.
+¡Genial! He abierto una [nueva incidencia]({{ issueURL }}) por ti.
 
 <hr>
-<h3 align="center">Go to the next issue <a href="{{ issueURL }}">here</a>.</h3>
+<h3 align="center">Accede a la siguiente incidencia <a href="{{ issueURL }}">aquí</a>.</h3>

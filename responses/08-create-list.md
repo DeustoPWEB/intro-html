@@ -1,30 +1,30 @@
-## Paso 9: Create a list
+## Paso 9: Crea una lista
 
-Your site with your new photo can be seen at: {{ pagesUrl }}
+Puedes ver tu sitio con la nueva foto en: {{ pagesUrl }}
 
-> Note: Sometimes it takes a few minutes for a GitHub Pages site to reload. If your changes still don't appear after a few minutes, you might try clearing the cache in your browser and refreshing the page. 
+> Nota: A veces puede llevar unos minutos a GitHub Pages recargar un sitio. Si tus cambios todavía no se visualizan pasados unos minutos, puedes intentar borrar la caché de tu navegador y actualizar la página.
 
-### Ordered and unordered lists
+### Listas ordenadas y desordenadas
 
-Lists are used all over the internet. They come in two flavors: ordered and unordered.
+Las listas se usan por todo internet. Las hay de dos tipos: ordenadas y desordenadas.
 
-1. This
-2. Is an
-3. Ordered list
+1. Esto
+2. Es una
+3. Lista ordenada
 
-And...
+Y...
 
-- This
-- Is an
-- Unordered list
+- Esto
+- Es una
+- Lista desordenada
 
-You can create a list using the `<ol>` tag for ordered lists, and the `<ul>` tag for unordered lists. Then, each item must be wrapped in an `<li>`, or list item, tag. Here's the code that generates the list I showed you above:
+Puedes crear listas usando la etiqueta `<ol>` para listas ordenadas, y la etiqueta `<ul>` para listas desordenadas. Después, cada elemento de la lista debe rodearse de etiquetas `<li>`, o _list item_. Aquí tienes el código que genera la lista que te he enseñado más arriba:
 
 ```html
 <ol>
-    <li>This</li>
-    <li>Is an</li>
-    <li>Ordered list</li>
+    <li>Esto</li>
+    <li>Es una</li>
+    <li>Lista ordenada</li>
 </ol>
 ```
 
@@ -32,18 +32,18 @@ And...
 
 ```html
 <ul>
-    <li>This</li>
-    <li>Is an</li>
-    <li>Unordered list</li>
+    <li>Esto</li>
+    <li>Es una</li>
+    <li>Lista desordenada</li>
 </ul>
 ```
 
-For the next exercise, you are going to create a list of your favorite websites. Later, we will add links so you can access those links quickly. For now, focus on creating the individual list items.
+Para el siguiente ejercicio vas a crear una lista de tus sitios web favoritos. Después añadiremos enlaces, de forma que puedas acceder a esos sitios rápidamente. Por ahora, céntrate en crear los elementos de la lista.
 
-### :keyboard: Actividad: Create a list of your favorite sites
+### :keyboard: Actividad: Crea una lista de tus sitios favoritos
 
-1. Edit the `index.html` file in your master branch by [usando este enlace directo]({{ repoUrl }}/edit/master/index.html) o yendo a la pestaña **Code**, clicking on the `index.html` file, haciendo clic en el lápiz :pencil: para editar el HTML..
-1. Inside the body tag, create a list, either ordered or unordered, of your favorite sites on the internet.
+1. Edita el archivo `index.html` en tu rama master [usando este enlace directo]({{ repoUrl }}/edit/master/index.html) o yendo a la pestaña **Code**, haciendo clic en el archivo `index.html` y haciendo clic en el lápiz :pencil: para editar el HTML.
+1. Dentro de la etiqueta body, crea una lista, ordenada o desordenada, de tus sitios favoritos en internet.
 1. En la sección _Commit changes_, introduce un mensaje de confirmación que describa lo que has hecho.
 1. Asegúrate de que has seleccionado _Create a new branch for this commit and start a pull request_.
 1. Pon un nombre descriptivo a tu rama, como `add-links-and-lists`.
@@ -52,4 +52,4 @@ For the next exercise, you are going to create a list of your favorite websites.
 1. Haz clic en **Create pull request.**
 
 <hr>
-<h3 align="center">Look for my response in your new pull request</h3>
+<h3 align="center">Busca mi respuesta en tu nueva solicitud de extracción</h3>

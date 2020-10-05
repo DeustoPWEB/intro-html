@@ -12,7 +12,7 @@ HTML son las iniciales de **H**yper **T**ext **M**arkup **L**anguage (Lenguaje d
 
 Cuando alguien introduce la dirección de tu sitio web, los estándares web buscarán automáticamente un archivo llamado index.html y lo mostrarán en el navegador. La mayoría de la gente llama a esto tu página principal o página de inicio.
 
-## PAso 1: Alojando tu sitio web
+## Paso 1: Alojando tu sitio web
 
 No es suficiente con simplemente crear un sitio web en GitHub. Necesitas implementar o desplegar el sitio web a un servidor web que esté conectado a internet. Para este curso vamos a usar GitHub Pages, pero puedes publicar tu HTML en cualquier servidor estático.
 
