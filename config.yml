@@ -25,7 +25,7 @@ steps:
         with: 00-openapr.md
         data:
           pagesUrl: "%actions.pagesUrl.data.html_url%"
-        issue: Welcome
+        issue: Bienvenida
 
   - title: Abre una solicitud de extracción
     description: Abre una solicitud de extracción.
